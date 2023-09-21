@@ -85,7 +85,40 @@ export default App;
 
 <br>
 
-### Iteration 3 | Download the assets
+### Iteration 3 | Fonts
+
+To make it the page look as authentic as possible, we'll use fonts similar to the ones Discord uses:
+
+- **Poppins - Black 900** ([preview](https://fonts.google.com/specimen/Poppins?preview.text=IMAGINE%20A%20PLACE&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
+- **Roboto - Regular 400, Regular 500** ([preview](https://fonts.google.com/specimen/Roboto?preview.text=...where%20you%20can%20belong%20to%20a%20school%20club,%20a%20gaming%20group,&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
+
+<br>
+
+To load these fonts, copy the following code into the <head> of your index.html page:
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+```
+
+<br>
+
+You can use these fonts in your CSS as follows:
+
+**Headings**
+```css
+font-family: 'Poppins', sans-serif;
+```
+
+**Paragraphs & Text**
+```css
+font-family: 'Roboto', sans-serif;
+```
+
+<br>
+
+### Iteration 4 | Download the assets
 
 To create the landing page we will need a few images.
 
@@ -127,39 +160,6 @@ https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page
 
 </details>
 
-<br>
-
-### Iteration 4 | Fonts
-
-To make it the page look as authentic as possible, we'll use fonts similar to the ones Discord uses:
-
-- **Poppins - Black 900** ([preview](https://fonts.google.com/specimen/Poppins?preview.text=IMAGINE%20A%20PLACE&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
-- **Roboto - Regular 400, Regular 500** ([preview](https://fonts.google.com/specimen/Roboto?preview.text=...where%20you%20can%20belong%20to%20a%20school%20club,%20a%20gaming%20group,&preview.size=80&preview.text_type=custom&stroke=Sans+Serif&stylecount=8))
-
-<br>
-
-To load these fonts, copy the following code into the <head> of your index.html page:
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-```
-
-<br>
-
-You can use these fonts in your CSS as follows:
-
-**Headings**
-```css
-font-family: 'Poppins', sans-serif;
-```
-<br>
-
-**Paragraphs & Text**
-```css
-font-family: 'Roboto', sans-serif;
-```
 <br>
 <br>
 
