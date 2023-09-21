@@ -28,7 +28,7 @@ We just learned the basics of React, JSX and how to set up a new React app using
 <br>
 
 <p align="center">
-  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/discord-landing-page.png" width="500" />
+  <img src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/labs/landing-page/discord-landing-page.png" width="600" />
 </p>
 
 <br>
