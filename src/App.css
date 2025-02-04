@@ -1,0 +1,58 @@
+root{
+  background-color: blue;
+}
+body{
+  background-color: blue;
+  marging-left:20px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+  justify-self: flex-end;
+  align-items: space-between;
+  align-content: space-between;
+   margin-top: 0px;
+   padding: 50px;
+  height: 50px;
+
+}
+h1{
+  padding:20px;
+}
+
+h2{
+  padding: 20px;
+  margin-right: 1000px;
+}
+.gridContainer{
+  display: grid;
+   grid-template-columns: 50% 50%;
+    height: 100vh;
+
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+}
+.button1{
+  background-color: white;
+  color:black;
+  border-radius: 25px;
+  width: 300px;
+  height: 80px;
+  margin:50px;
+}
+
+.button2{
+  background-color: black;
+  color:white;
+  border-radius: 25px;
+margin-left: 50px;
+height: 80px;
+width: 400px;
+}
+.jj{
+  height: 500px;
+}
